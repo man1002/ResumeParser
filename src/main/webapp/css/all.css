@@ -1,0 +1,29 @@
+.box {
+    margin: 50px auto;
+    width: 800px;
+}
+
+.left {
+    float: left;
+}
+
+.inner {
+    width: 800px;
+}
+.innerInput {
+    width: 797px;
+}
+
+.red {
+    color: red;
+}
+
+#parserWork {
+    padding-left: 10px;
+    visibility: hidden;
+}
+
+#resume {
+    padding: 5px;
+    border: 1px solid black;
+}
