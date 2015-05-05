@@ -58,7 +58,6 @@ public class ResumeRepository {
         @SuppressWarnings("unchecked")
         List<Resume> resumes = fullTextQuery.getResultList();
 
-        // Понимаю что нехорошо так делать, решения пока не нашел.
         return resumes.size() == 0 ? null : resumes.get(0).getUpdateDate();
     }
 
